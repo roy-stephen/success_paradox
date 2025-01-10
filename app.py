@@ -37,7 +37,7 @@ def astronaut_simulation(num_applicants=18300, num_selected=200, luck_weight=0.0
 
     return avg_luck_scores, avg_top_skill_selected, impact_of_luck_measures
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Success Paradox")
 st.title("The Luck Factor: How Much Does Chance Impact Success?")
 
 # Sidebar for user inputs with tooltips
