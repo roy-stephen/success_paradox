@@ -79,7 +79,7 @@ if run_simulation:
     fig1 = px.histogram(avg_luck_scores, title='Distribution of Average Luck Scores', labels={'value':'Average Luck Score'})
     fig2 = px.histogram(avg_top_skill_selected, title='Distribution of Top Skilled Selected', labels={'value':'Number of Top Skilled'})
     fig3 = px.histogram(impact_of_luck, title='Distribution of Impact of Luck', labels={'value':'Impact of Luck'})
-    fig3.update_layout(yaxis_tickformat='.0%')
+    fig3.update_layout(xaxis_tickformat='.0%')
 
     st.plotly_chart(fig1, use_container_width=True)
     st.plotly_chart(fig2, use_container_width=True)
